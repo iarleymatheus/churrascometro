@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
+
+
+
 body{
 background-image: url(/images/backchuras.jpg);
 
@@ -8,7 +11,7 @@ background-image: url(/images/backchuras.jpg);
 }
 #container{
     
-    display: flexbox;
+    display: block;
     background-color: #c74017ce;
     border-radius: 20px;
     /* margin-top: 80px; */
@@ -21,22 +24,31 @@ background-image: url(/images/backchuras.jpg);
 }
 
 .input{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border: none;
   border-radius: 20px;
-  display: block;
-  padding: 2px;
-  margin: auto;
-  float:inline-end;
+  display: inline-block;
+  padding: 10px;
   margin-top: 5px;
   text-align: center;
+  outline-color: brown;
   
+  
+}
+
+.itens{
+font-size: 1.8rem;
 
 
 
 }
 #sub{
     padding: 10px;
+    
+    
 }
+.input:hover {opacity: 0.6; padding: 10.2px;}
+
 h1{
 font-family: 'Amatic SC', cursive;
 font-size: 3rem;
@@ -46,4 +58,39 @@ color: aliceblue;
 p{
     font-family: 'Amatic SC', cursive;
     color: aliceblue;
+}
+
+#Resul{
+ font-size: 1.5rem;
+
+
+}
+#matheus{
+    font-size:small;
+}
+
+@media screen and (max-width: 415px) {
+    
+
+    .input{
+      padding: 15px;
+
+
+
+
+    }
+    #container{
+    
+        display: block;
+        background-color: #c74017ce;
+        /* border-radius: 50px; */
+        /* margin-top: 80px; */
+        padding:15px;
+        text-align: center;
+        width: 80%%;
+        margin: auto;
+        margin-top: 20px;
+    
+    }
+
 }

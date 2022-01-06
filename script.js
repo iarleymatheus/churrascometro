@@ -13,7 +13,7 @@ function Calc(){
     let adul = adulto.value;
     let cri = criancas.value;
     let temp = tempo.value;
-
+    
     let carne = (adul * 0.500 + cri * 0.250) * temp;
     Meet.innerHTML =  carne + " Kg de Carne";
 
@@ -21,13 +21,12 @@ function Calc(){
     beer.innerHTML = cerveja + " Latas de cerveja";
 
     let refrigerante = (adul * 2 + cri * 1) *temp;
-    Refrig.innerHTML = refrigerante + " Litros de Refrigerante" ;
-
-    
-    console.log(carne)
- 
-
-
+    Refrig.innerHTML = refrigerante + " Litros de Refrigerante";
 
 }
 
+function Clear(){
+Meet.innerHTML = '';
+beer.innerHTML = '';
+Refrig.innerHTML = '';
+}
