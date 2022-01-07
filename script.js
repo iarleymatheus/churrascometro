@@ -14,7 +14,7 @@ function Calc(){
     let cri = criancas.value;
     let temp = tempo.value;
     
-    let carne = (adul * 0.20 + cri * 0.10) * temp;
+    let carne = (adul * 0.250 + cri * 0.125) * temp;
     Meet.innerHTML =  carne + " Kg de Carne";
 
     let cerveja = adul * 4 * temp;
