@@ -14,13 +14,13 @@ function Calc(){
     let cri = criancas.value;
     let temp = tempo.value;
     
-    let carne = (adul * 0.500 + cri * 0.250) * temp;
+    let carne = (adul * 0.20 + cri * 0.10) * temp;
     Meet.innerHTML =  carne + " Kg de Carne";
 
     let cerveja = adul * 4 * temp;
     beer.innerHTML = cerveja + " Latas de cerveja";
 
-    let refrigerante = (adul * 2 + cri * 1) *temp;
+    let refrigerante = (adul * 0.500 + cri * 0.250) *temp;
     Refrig.innerHTML = refrigerante + " Litros de Refrigerante";
 
 }
